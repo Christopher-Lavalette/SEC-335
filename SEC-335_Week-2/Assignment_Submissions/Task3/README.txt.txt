@@ -1,0 +1,1 @@
+Due to freezing occuring with WinPEAS I was unable to capture any of the vulnerabilities scanned except the one captured in the screenshot alongside the half compiled output from WinPEAS.
