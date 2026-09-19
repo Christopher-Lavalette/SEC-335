@@ -1,0 +1,29 @@
+;*** BEGIN **********************************************************
+;**                                                                **
+;** Automatically generated on: Sat Sep 19 17:54:34 2026           **
+;**                                                                **
+;** MakeCAB Version: 5.00                                 **
+;**                                                                **
+;*** BEGIN **********************************************************
+[disk list]
+1,Disk 1
+[cabinet list]
+1,1,enumeration.cab
+[file list]
+1,1,01-whoami.txt,5830
+1,1,02-tasklist.txt,60066
+1,1,03-netstat.txt,6762
+1,1,04-services.txt,69706
+1,1,05-users.txt,582
+1,1,06-groups.txt,1128
+1,1,07-admins.txt,566
+1,1,08-ipconfig.txt,2388
+1,1,09-firewall.txt,4296
+1,1,10-arp.txt,3768
+1,1,11-smb-sessions.txt,76
+1,1,12-systeminfo.txt,4746
+;*** END ************************************************************
+;**                                                                **
+;** Automatically generated on: Sat Sep 19 17:54:34 2026           **
+;**                                                                **
+;*** END ************************************************************

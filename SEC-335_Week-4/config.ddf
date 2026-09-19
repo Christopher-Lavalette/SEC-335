@@ -1,0 +1,19 @@
+.OPTION EXPLICIT
+.Set CabinetNameTemplate=enumeration.cab
+.Set DiskDirectoryTemplate=C:\temp
+.Set CompressionType=LZX
+.Set Cabinet=on
+.Set Compress=on
+
+C:\temp\sec-335_task_1_enumeration_lavalette\01-whoami.txt
+C:\temp\sec-335_task_1_enumeration_lavalette\02-tasklist.txt
+C:\temp\sec-335_task_1_enumeration_lavalette\03-netstat.txt
+C:\temp\sec-335_task_1_enumeration_lavalette\04-services.txt
+C:\temp\sec-335_task_1_enumeration_lavalette\05-users.txt
+C:\temp\sec-335_task_1_enumeration_lavalette\06-groups.txt
+C:\temp\sec-335_task_1_enumeration_lavalette\07-admins.txt
+C:\temp\sec-335_task_1_enumeration_lavalette\08-ipconfig.txt
+C:\temp\sec-335_task_1_enumeration_lavalette\09-firewall.txt
+C:\temp\sec-335_task_1_enumeration_lavalette\10-arp.txt
+C:\temp\sec-335_task_1_enumeration_lavalette\11-smb-sessions.txt
+C:\temp\sec-335_task_1_enumeration_lavalette\12-systeminfo.txt
