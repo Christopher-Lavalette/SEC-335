@@ -1,0 +1,4 @@
+SESSION  UID USER    SEAT TTY
+ 539771 1004 bthomas      pts/1
+
+1 sessions listed.

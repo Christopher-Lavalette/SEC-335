@@ -1,0 +1,53 @@
+Oct 25 02:55:01 ws-15 CRON[250705]: pam_unix(cron:session): session closed for user root
+Oct 25 02:55:01 ws-15 CRON[250704]: pam_unix(cron:session): session closed for user root
+Oct 25 03:00:01 ws-15 CRON[250733]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 25 03:00:01 ws-15 CRON[250731]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 25 03:00:01 ws-15 CRON[250732]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 25 03:00:01 ws-15 CRON[250731]: pam_unix(cron:session): session closed for user root
+Oct 25 03:00:01 ws-15 CRON[250733]: pam_unix(cron:session): session closed for user root
+Oct 25 03:00:01 ws-15 CRON[250732]: pam_unix(cron:session): session closed for user root
+Oct 25 03:05:01 ws-15 CRON[250793]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 25 03:05:01 ws-15 CRON[250795]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 25 03:05:01 ws-15 CRON[250796]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 25 03:05:01 ws-15 CRON[250794]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 25 03:05:01 ws-15 CRON[250793]: pam_unix(cron:session): session closed for user root
+Oct 25 03:05:01 ws-15 CRON[250795]: pam_unix(cron:session): session closed for user root
+Oct 25 03:05:01 ws-15 CRON[250794]: pam_unix(cron:session): session closed for user root
+Oct 25 03:05:01 ws-15 CRON[250796]: pam_unix(cron:session): session closed for user root
+Oct 25 03:08:12 ws-15 sshd[249755]: Received disconnect from 192.168.4.30 port 33614:11: disconnected by user
+Oct 25 03:08:12 ws-15 sshd[249755]: Disconnected from user bthomas 192.168.4.30 port 33614
+Oct 25 03:08:12 ws-15 sshd[249689]: pam_unix(sshd:session): session closed for user bthomas
+Oct 25 03:08:12 ws-15 systemd-logind[403]: Session 537165 logged out. Waiting for processes to exit.
+Oct 25 03:08:12 ws-15 systemd-logind[403]: Removed session 537165.
+Oct 25 03:08:20 ws-15 sshd[250820]: Accepted password for tcarpenter from 192.168.4.30 port 56142 ssh2
+Oct 25 03:08:20 ws-15 sshd[250820]: pam_unix(sshd:session): session opened for user tcarpenter(uid=1001) by (uid=0)
+Oct 25 03:08:20 ws-15 systemd-logind[403]: New session 538843 of user tcarpenter.
+Oct 25 03:08:20 ws-15 systemd: pam_unix(systemd-user:session): session opened for user tcarpenter(uid=1001) by (uid=0)
+Oct 25 03:08:47 ws-15 sudo: tcarpenter : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/bin/bash
+Oct 25 03:08:47 ws-15 sudo: pam_limits(sudo-i:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=1001,euid=0
+Oct 25 03:08:47 ws-15 sudo: pam_unix(sudo-i:session): session opened for user root(uid=0) by tcarpenter(uid=1001)
+Oct 25 03:09:01 ws-15 CRON[250915]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 25 03:09:01 ws-15 CRON[250915]: pam_unix(cron:session): session closed for user root
+Oct 25 03:09:10 ws-15 sudo:     root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cat /tmp/enumeration/26_authentication.txt
+Oct 25 03:09:10 ws-15 sudo: pam_limits(sudo:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0
+Oct 25 03:09:10 ws-15 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tcarpenter(uid=0)
+Oct 25 03:09:10 ws-15 sudo: pam_unix(sudo:session): session closed for user root
+Oct 25 03:09:19 ws-15 sudo: pam_unix(sudo-i:session): session closed for user root
+Oct 25 03:10:01 ws-15 CRON[250975]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 25 03:10:01 ws-15 CRON[250974]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 25 03:10:01 ws-15 CRON[250975]: pam_unix(cron:session): session closed for user root
+Oct 25 03:10:01 ws-15 CRON[250974]: pam_unix(cron:session): session closed for user root
+Oct 25 03:10:01 ws-15 CRON[250976]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 25 03:10:01 ws-15 CRON[250976]: pam_unix(cron:session): session closed for user root
+Oct 25 03:10:01 ws-15 CRON[250977]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 25 03:10:01 ws-15 CRON[250977]: pam_unix(cron:session): session closed for user root
+Oct 25 03:10:02 ws-15 sudo: tcarpenter : TTY=pts/1 ; PWD=/tmp/enumeration ; USER=root ; COMMAND=/usr/bin/rm 26_authentication.txt
+Oct 25 03:10:02 ws-15 sudo: pam_limits(sudo:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=1001,euid=0
+Oct 25 03:10:02 ws-15 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tcarpenter(uid=1001)
+Oct 25 03:10:02 ws-15 sudo: pam_unix(sudo:session): session closed for user root
+Oct 25 03:13:42 ws-15 sudo: tcarpenter : TTY=pts/1 ; PWD=/home/tcarpenter ; USER=root ; COMMAND=/usr/bin/bash -c '{ tail -n 50 /var/log/auth.log; lastb -n 20; } > /tmp/enumeration/26_authentication.txt 2>&1'
+Oct 25 03:13:42 ws-15 sudo: pam_limits(sudo:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=1001,euid=0
+Oct 25 03:13:42 ws-15 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tcarpenter(uid=1001)
+bthomas  ssh:notty    192.168.4.30     Sun Oct 25 01:36 - 01:36  (00:00)
+
+btmp begins Sun Oct 25 01:36:58 2026

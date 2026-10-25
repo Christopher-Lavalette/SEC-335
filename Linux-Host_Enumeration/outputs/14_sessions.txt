@@ -1,0 +1,15 @@
+bthomas  pts/1        2026-10-25 01:37 (192.168.4.30)
+ 01:53:49 up 20 days,  4:00,  1 user,  load average: 2.03, 2.42, 2.54
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+bthomas  pts/1    192.168.4.30     01:37    0.00s  0.27s  0.00s w
+bthomas  pts/1        192.168.4.30     Sun Oct 25 01:37   still logged in
+tcarpent pts/1        192.168.4.30     Sun Oct 25 01:35 - 01:36  (00:01)
+bthomas  pts/1        192.168.4.30     Sun Oct 25 01:26 - 01:35  (00:08)
+tcarpent pts/1        192.168.4.30     Sun Oct 25 01:22 - 01:26  (00:03)
+bthomas  pts/1        192.168.4.30     Sun Oct 25 00:45 - 01:22  (00:36)
+bthomas  pts/1        192.168.4.30     Sun Oct 25 00:13 - 00:45  (00:31)
+reboot   system boot  7.0.0-30-generic Sun Oct  4 21:52   still running
+reboot   system boot  7.0.0-30-generic Sun Oct  4 21:52   still running
+
+wtmp begins Sun Oct  4 21:52:47 2026
+lastb: cannot open /var/log/btmp: Permission denied

@@ -1,0 +1,9 @@
+uid=1004(bthomas) gid=1004(bthomas) groups=1004(bthomas),1011(lab)
+bthomas lab
+Matching Defaults entries for bthomas on ws-15:
+    env_reset, mail_badpass,
+    secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin,
+    use_pty
+
+User bthomas may run the following commands on ws-15:
+    (ALL) NOPASSWD: /usr/bin/find /opt/lab/tools/*

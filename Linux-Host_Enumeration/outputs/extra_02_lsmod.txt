@@ -1,0 +1,145 @@
+Module                  Size  Used by
+nfsd                 1069056  0
+auth_rpcgss           188416  1 nfsd
+nfs_acl                12288  1 nfsd
+lockd                 151552  1 nfsd
+grace                  16384  2 nfsd,lockd
+sunrpc                851968  4 nfsd,auth_rpcgss,lockd,nfs_acl
+unix_diag              12288  0
+authencesn             12288  0
+authenc                12288  1 authencesn
+algif_aead             12288  0
+nft_ct                 28672  0
+nft_fib_ipv4           12288  0
+nft_fib                12288  1 nft_fib_ipv4
+xt_comment             12288  25
+nft_limit              16384  0
+xt_LOG                 16384  0
+nf_log_syslog          20480  0
+xt_limit               12288  0
+wireguard             114688  0
+libcurve25519          65536  1 wireguard
+udp_diag               12288  0
+ts_bm                  16384  1
+xt_string              12288  1
+xt_multiport           16384  1
+iptable_nat            12288  0
+ip_tables              32768  1 iptable_nat
+nft_masq               12288  1
+zfs                  6533120  0
+spl                   159744  1 zfs
+vhost_vsock            28672  0
+vmw_vsock_virtio_transport_common    57344  1 vhost_vsock
+vsock                  73728  4 vmw_vsock_virtio_transport_common,vhost_vsock
+bluetooth            1134592  0
+xt_REDIRECT            16384  0
+nls_iso8859_1          12288  0
+nbd                    65536  0
+isofs                  61440  0
+algif_hash             20480  0
+af_alg                 32768  2 algif_hash,algif_aead
+cpuid                  12288  0
+ib_core               552960  0
+tcp_diag               20480  0
+inet_diag              24576  2 tcp_diag,udp_diag
+vhost_net              36864  2
+vhost                  69632  2 vhost_vsock,vhost_net
+vhost_iotlb            16384  1 vhost
+tap                    32768  1 vhost_net
+uas                    32768  0
+usb_storage            86016  1 uas
+nf_conntrack_netlink    61440  0
+xt_nat                 12288  111
+veth                   45056  0
+xfrm_user              69632  4
+xt_set                 20480  0
+ip_set                 61440  1 xt_set
+xt_addrtype            12288  16
+overlay               233472  7
+vxlan                 151552  0
+ip6_udp_tunnel         16384  2 wireguard,vxlan
+udp_tunnel             36864  2 wireguard,vxlan
+xt_CHECKSUM            12288  3
+ipt_REJECT             12288  6
+nf_reject_ipv4         12288  1 ipt_REJECT
+bridge                425984  0
+stp                    12288  1 bridge
+llc                    16384  2 bridge,stp
+xt_connmark            12288  0
+xt_conntrack           12288  11
+xt_MASQUERADE          16384  16
+xt_tcpudp              16384  0
+xt_mark                12288  0
+nft_compat             20480  190
+x_tables               65536  19 xt_conntrack,nft_compat,xt_LOG,xt_multiport,xt_string,xt_tcpudp,xt_addrtype,xt_CHECKSUM,xt_nat,xt_comment,xt_set,ipt_REJECT,xt_connmark,ip_tables,iptable_nat,xt_limit,xt_MASQUERADE,xt_REDIRECT,xt_mark
+nft_chain_nat          12288  36
+nf_nat                 65536  6 xt_nat,nft_masq,nft_chain_nat,iptable_nat,xt_MASQUERADE,xt_REDIRECT
+nf_conntrack          196608  9 xt_conntrack,nf_nat,nft_ct,xt_nat,nf_conntrack_netlink,xt_connmark,nft_masq,xt_MASQUERADE,xt_REDIRECT
+nf_defrag_ipv6         24576  1 nf_conntrack
+nf_defrag_ipv4         12288  1 nf_conntrack
+nf_tables             409600  1783 nft_ct,nft_compat,nft_fib_ipv4,nft_masq,nft_chain_nat,nft_limit,nft_fib
+qrtr                   53248  2
+nfnetlink              20480  9 nft_compat,nf_conntrack_netlink,nf_tables,ip_set
+cfg80211             1536000  0
+intel_rapl_msr         20480  0
+intel_rapl_common      57344  1 intel_rapl_msr
+cmdlinepart            16384  0
+intel_uncore_frequency    12288  0
+intel_uncore_frequency_common    20480  1 intel_uncore_frequency
+spi_nor               180224  1
+mtd                   106496  5 spi_nor,cmdlinepart
+binfmt_misc            24576  1
+x86_pkg_temp_thermal    20480  0
+intel_powerclamp       28672  0
+coretemp               24576  0
+spi_intel_platform     12288  1
+spi_intel              36864  1 spi_intel_platform
+gpio_ich               16384  0
+rapl                   20480  0
+intel_cstate           20480  0
+mxm_wmi                12288  0
+i2c_i801               36864  0
+ipmi_ssif              45056  0
+i2c_smbus              20480  1 i2c_i801
+kvm_intel             552960  16
+i2c_mux                20480  1 i2c_i801
+intel_pch_thermal      20480  0
+ast                   106496  0
+acpi_ipmi              24576  0
+kvm                  1527808  11 kvm_intel
+lpc_ich                32768  0
+ipmi_si                94208  1
+irqbypass              16384  1 kvm
+ipmi_devintf           20480  0
+ipmi_msghandler        98304  4 ipmi_devintf,ipmi_si,acpi_ipmi,ipmi_ssif
+mei_me                 61440  0
+mei                   184320  1 mei_me
+acpi_pad              184320  0
+ioatdma                90112  0
+input_leds             12288  0
+joydev                 32768  0
+mac_hid                12288  0
+sch_fq_codel           28672  2
+dm_multipath           45056  0
+efi_pstore             12288  0
+ghash_clmulni_intel    12288  0
+ixgbe                 598016  0
+igb                   348160  0
+ahci                   53248  3
+libie_fwlog            28672  1 ixgbe
+libahci                57344  1 ahci
+xfrm_algo              16384  2 xfrm_user,ixgbe
+i2c_algo_bit           16384  2 igb,ast
+dca                    20480  3 igb,ioatdma,ixgbe
+mdio                   12288  1 ixgbe
+wmi                    36864  1 mxm_wmi
+hid_generic            12288  0
+usbhid                 86016  0
+hid                   282624  2 usbhid,hid_generic
+dm_mirror              28672  0
+dm_region_hash         24576  1 dm_mirror
+dm_log                 20480  2 dm_region_hash,dm_mirror
+msr                    12288  0
+dmi_sysfs              28672  0
+autofs4                61440  2
+aesni_intel            98304  0

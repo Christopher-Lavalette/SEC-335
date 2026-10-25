@@ -1,0 +1,17 @@
+ls: cannot access '/home/bthomas/.ssh': No such file or directory
+/etc/ssh:
+total 548
+drwxr-xr-x  4 root root   4096 Oct 16 06:30 .
+drwxr-xr-x 97 root root   4096 Oct 25 01:36 ..
+-rw-r--r--  1 root root 505426 Aug 31 18:39 moduli
+-rw-r--r--  1 root root   1650 Aug 31 18:39 ssh_config
+drwxr-xr-x  2 root root   4096 Aug 31 18:39 ssh_config.d
+-rw-------  1 root root    505 Oct  4 21:53 ssh_host_ecdsa_key
+-rw-r--r--  1 root root    172 Oct  4 21:53 ssh_host_ecdsa_key.pub
+-rw-------  1 root root    399 Oct  4 21:53 ssh_host_ed25519_key
+-rw-r--r--  1 root root     92 Oct  4 21:53 ssh_host_ed25519_key.pub
+-rw-------  1 root root   2590 Oct  4 21:53 ssh_host_rsa_key
+-rw-r--r--  1 root root    564 Oct  4 21:53 ssh_host_rsa_key.pub
+-rw-r--r--  1 root root    342 Dec  7  2020 ssh_import_id
+-rw-r--r--  1 root root   3254 Aug 31 18:39 sshd_config
+drwxr-xr-x  2 root root   4096 Oct  4 22:24 sshd_config.d

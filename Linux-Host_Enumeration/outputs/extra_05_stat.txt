@@ -1,0 +1,24 @@
+  File: /etc/passwd
+  Size: 2397      	Blocks: 8          IO Block: 4096   regular file
+Device: fc00h/64512d	Inode: 4068862     Links: 1
+Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2026-10-25 03:47:00.185726053 +0000
+Modify: 2026-10-25 03:47:00.174496459 +0000
+Change: 2026-10-25 03:47:00.174725986 +0000
+ Birth: 2026-10-25 03:47:00.172838792 +0000
+  File: /etc/shadow
+  Size: 2011      	Blocks: 8          IO Block: 4096   regular file
+Device: fc00h/64512d	Inode: 4068860     Links: 1
+Access: (0640/-rw-r-----)  Uid: (    0/    root)   Gid: (   42/  shadow)
+Access: 2026-10-25 03:47:02.945742858 +0000
+Modify: 2026-10-25 03:47:00.189152091 +0000
+Change: 2026-10-25 03:47:00.189152091 +0000
+ Birth: 2026-10-25 03:47:00.187726065 +0000
+  File: /etc/sudoers
+  Size: 1671      	Blocks: 8          IO Block: 4096   regular file
+Device: fc00h/64512d	Inode: 4099059     Links: 1
+Access: (0440/-r--r-----)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2026-10-25 00:18:30.612056005 +0000
+Modify: 2022-02-08 08:41:40.000000000 +0000
+Change: 2026-10-09 07:00:41.010820349 +0000
+ Birth: 2026-10-04 21:52:41.160498206 +0000

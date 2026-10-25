@@ -1,0 +1,24 @@
+Failed to open cgroup2 by ID
+Failed to open cgroup2 by ID
+Netid State  Recv-Q Send-Q       Local Address:Port  Peer Address:PortProcess                                                                                                 
+udp   UNCONN 0      0                  0.0.0.0:51820      0.0.0.0:*    ino:46996173 sk:2084 cgroup:unreachable:2cd67a <->                                                     
+udp   UNCONN 0      0            127.0.0.53%lo:53         0.0.0.0:*    uid:101 ino:41043024 sk:2085 cgroup:/system.slice/systemd-resolved.service <->                         
+udp   UNCONN 0      0      192.168.200.25%eth0:68         0.0.0.0:*    uid:100 ino:61344811 sk:2086 cgroup:/system.slice/systemd-networkd.service <->                         
+udp   UNCONN 0      0                     [::]:51820         [::]:*    ino:46996174 sk:2087 cgroup:unreachable:2cd67a v6only:1 <->                                            
+tcp   LISTEN 0      4096         127.0.0.53%lo:53         0.0.0.0:*    uid:101 ino:41043025 sk:2088 cgroup:/system.slice/systemd-resolved.service <->                         
+tcp   LISTEN 0      128                0.0.0.0:22         0.0.0.0:*    ino:41041160 sk:2089 cgroup:/system.slice/ssh.service <->                                              
+tcp   LISTEN 0      244              127.0.0.1:5432       0.0.0.0:*    uid:112 ino:6313073 sk:401c cgroup:/system.slice/system-postgresql.slice/postgresql@14-main.service <->
+tcp   LISTEN 0      128                   [::]:22            [::]:*    ino:41041162 sk:208a cgroup:/system.slice/ssh.service v6only:1 <->                                     
+tcp   LISTEN 0      511                      *:443              *:*    ino:55361709 sk:208b cgroup:/system.slice/apache2.service v6only:0 <->                                 
+Netid State  Recv-Q Send-Q       Local Address:Port  Peer Address:Port Process
+udp   ESTAB  0      0                127.0.0.1:47658    127.0.0.1:47658       
+udp   UNCONN 0      0                  0.0.0.0:51820      0.0.0.0:*           
+udp   UNCONN 0      0            127.0.0.53%lo:53         0.0.0.0:*           
+udp   UNCONN 0      0      192.168.200.25%eth0:68         0.0.0.0:*           
+udp   UNCONN 0      0                     [::]:51820         [::]:*           
+tcp   LISTEN 0      4096         127.0.0.53%lo:53         0.0.0.0:*           
+tcp   LISTEN 0      128                0.0.0.0:22         0.0.0.0:*           
+tcp   LISTEN 0      244              127.0.0.1:5432       0.0.0.0:*           
+tcp   ESTAB  0      0           192.168.200.25:22    192.168.4.30:34742       
+tcp   LISTEN 0      128                   [::]:22            [::]:*           
+tcp   LISTEN 0      511                      *:443              *:*           

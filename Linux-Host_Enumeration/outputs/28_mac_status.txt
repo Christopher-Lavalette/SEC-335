@@ -1,0 +1,65 @@
+bash: line 1: getenforce: command not found
+apparmor module is loaded.
+49 profiles are loaded.
+49 profiles are in enforce mode.
+   /snap/snapd/27738/usr/lib/snapd/snap-confine
+   /snap/snapd/28254/usr/lib/snapd/snap-confine
+   /usr/bin/man
+   /usr/lib/NetworkManager/nm-dhcp-client.action
+   /usr/lib/NetworkManager/nm-dhcp-helper
+   /usr/lib/connman/scripts/dhclient-script
+   /usr/lib/snapd/snap-confine
+   /{,usr/}sbin/dhclient
+   docker-default
+   lsb_release
+   man_filter
+   man_groff
+   nvidia_modprobe
+   nvidia_modprobe//kmod
+   snap-update-ns.docker
+   snap-update-ns.lxd
+   snap.docker.compose
+   snap.docker.docker
+   snap.docker.dockerd
+   snap.docker.hook.configure
+   snap.docker.hook.connect-plug-gpu-2404
+   snap.docker.hook.connect-plug-graphics-core22
+   snap.docker.hook.install
+   snap.docker.hook.post-refresh
+   snap.docker.nvidia-container-toolkit
+   snap.lxd.activate
+   snap.lxd.benchmark
+   snap.lxd.buginfo
+   snap.lxd.check-kernel
+   snap.lxd.daemon
+   snap.lxd.hook.configure
+   snap.lxd.hook.install
+   snap.lxd.hook.remove
+   snap.lxd.lxc
+   snap.lxd.lxc-to-lxd
+   snap.lxd.lxd
+   snap.lxd.migrate
+   snap.lxd.user-daemon
+   tcpdump
+   ubuntu_pro_apt_news
+   ubuntu_pro_esm_cache
+   ubuntu_pro_esm_cache//apt_methods
+   ubuntu_pro_esm_cache//apt_methods_gpgv
+   ubuntu_pro_esm_cache//cloud_id
+   ubuntu_pro_esm_cache//dpkg
+   ubuntu_pro_esm_cache//ps
+   ubuntu_pro_esm_cache//ubuntu_distro_info
+   ubuntu_pro_esm_cache_systemctl
+   ubuntu_pro_esm_cache_systemd_detect_virt
+0 profiles are in complain mode.
+0 profiles are in kill mode.
+0 profiles are in unconfined mode.
+2 processes have profiles defined.
+2 processes are in enforce mode.
+   /snap/docker/3618/bin/dockerd (254002) snap.docker.dockerd
+   /snap/docker/3618/bin/containerd (254381) snap.docker.dockerd
+0 processes are in complain mode.
+0 processes are unconfined but have a profile defined.
+0 processes are in mixed mode.
+0 processes are in kill mode.
+Y

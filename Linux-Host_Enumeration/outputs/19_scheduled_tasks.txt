@@ -1,0 +1,64 @@
+-rw-r--r-- 1 root root 1136 Mar 23  2022 /etc/crontab
+
+/etc/cron.d:
+total 36
+drwxr-xr-x  2 root root 4096 Oct  5 11:57 .
+drwxr-xr-x 97 root root 4096 Oct 25 01:36 ..
+-rw-r--r--  1 root root  102 Mar 23  2022 .placeholder
+-rw-r--r--  1 root root  201 Jan  8  2022 e2scrub_all
+-rw-r--r--  1 root root   36 Oct  5 12:02 lab-agent
+-rw-r--r--  1 root root   40 Oct  5 12:02 lab-backup
+-rw-r--r--  1 root root   44 Oct  5 12:02 lab-rotate
+-rw-r--r--  1 root root  712 Jan 28  2022 php
+-rw-r--r--  1 root root  396 Feb  2  2021 sysstat
+
+/etc/cron.daily:
+total 40
+drwxr-xr-x  2 root root 4096 Oct 16 06:30 .
+drwxr-xr-x 97 root root 4096 Oct 25 01:36 ..
+-rw-r--r--  1 root root  102 Mar 23  2022 .placeholder
+-rwxr-xr-x  1 root root  539 Mar 18  2024 apache2
+-rwxr-xr-x  1 root root  376 Jul 24  2023 apport
+-rwxr-xr-x  1 root root 1478 Apr  8  2022 apt-compat
+-rwxr-xr-x  1 root root  123 Dec  5  2021 dpkg
+-rwxr-xr-x  1 root root  377 Jan 24  2022 logrotate
+-rwxr-xr-x  1 root root 1330 Mar 17  2022 man-db
+-rwxr-xr-x  1 root root  518 Feb  2  2021 sysstat
+
+/etc/cron.hourly:
+total 12
+drwxr-xr-x  2 root root 4096 Sep 26 10:49 .
+drwxr-xr-x 97 root root 4096 Oct 25 01:36 ..
+-rw-r--r--  1 root root  102 Mar 23  2022 .placeholder
+
+/etc/cron.monthly:
+total 12
+drwxr-xr-x  2 root root 4096 Sep 26 10:49 .
+drwxr-xr-x 97 root root 4096 Oct 25 01:36 ..
+-rw-r--r--  1 root root  102 Mar 23  2022 .placeholder
+
+/etc/cron.weekly:
+total 16
+drwxr-xr-x  2 root root 4096 Sep 26 10:51 .
+drwxr-xr-x 97 root root 4096 Oct 25 01:36 ..
+-rw-r--r--  1 root root  102 Mar 23  2022 .placeholder
+-rwxr-xr-x  1 root root 1020 Mar 17  2022 man-db
+no crontab for bthomas
+NEXT                        LEFT          LAST                        PASSED       UNIT                           ACTIVATES
+Sun 2026-10-25 03:09:00 UTC 14min left    Sun 2026-10-25 02:39:03 UTC 15min ago    phpsessionclean.timer          phpsessionclean.service
+Sun 2026-10-25 03:10:54 UTC 16min left    Sun 2026-10-18 03:10:21 UTC 6 days ago   e2scrub_all.timer              e2scrub_all.service
+Sun 2026-10-25 06:52:44 UTC 3h 58min left Sat 2026-10-24 06:52:40 UTC 20h ago      apt-daily-upgrade.timer        apt-daily-upgrade.service
+Sun 2026-10-25 13:26:40 UTC 10h left      Tue 2026-10-20 03:05:40 UTC 4 days ago   update-notifier-motd.timer     update-notifier-motd.service
+Sun 2026-10-25 14:33:20 UTC 11h left      Sun 2026-10-25 00:21:40 UTC 2h 32min ago apt-daily.timer                apt-daily.service
+Sun 2026-10-25 19:38:20 UTC 16h left      Sun 2026-10-25 02:28:40 UTC 25min ago    motd-news.timer                motd-news.service
+Sun 2026-10-25 22:06:03 UTC 19h left      Sat 2026-10-24 22:06:03 UTC 4h 48min ago update-notifier-download.timer update-notifier-download.service
+Sun 2026-10-25 22:14:03 UTC 19h left      Sat 2026-10-24 22:14:03 UTC 4h 40min ago systemd-tmpfiles-clean.timer   systemd-tmpfiles-clean.service
+Mon 2026-10-26 00:00:00 UTC 21h left      Sun 2026-10-25 00:00:03 UTC 2h 54min ago dpkg-db-backup.timer           dpkg-db-backup.service
+Mon 2026-10-26 00:00:00 UTC 21h left      Sun 2026-10-25 00:00:03 UTC 2h 54min ago logrotate.timer                logrotate.service
+Mon 2026-10-26 04:19:37 UTC 1 day 1h left Sun 2026-10-25 01:36:36 UTC 1h 17min ago man-db.timer                   man-db.service
+n/a                         n/a           n/a                         n/a          apport-autoreport.timer        apport-autoreport.service
+n/a                         n/a           n/a                         n/a          fstrim.timer                   fstrim.service
+n/a                         n/a           n/a                         n/a          snapd.snap-repair.timer        snapd.snap-repair.service
+n/a                         n/a           n/a                         n/a          ua-timer.timer                 ua-timer.service
+
+15 timers listed.

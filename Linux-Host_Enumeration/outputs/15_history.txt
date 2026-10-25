@@ -1,0 +1,32 @@
+ls: cannot access '/home/bthomas/.zsh_history': No such file or directory
+-rw------- 1 bthomas bthomas 2083 Oct 25 01:35 /home/bthomas/.bash_history
+clear
+getent group > /tmp/enumeration/06_groups.txt 2>&1
+cat /tmp/enumeration/06_groups.txt
+clear
+{ getent group sudo; id tcarpenter; id rnovelli; id nkatz; } > /tmp/enumeration/07_sudo_members.txt 2>&1
+cat  /tmp/enumeration/07_sudo_members.txt
+clear
+{ ip -br address; ip route; cat /etc/resolv.conf; } > /tmp/enumeration/08_network.txt 2>&1
+cat  /tmp/enumeration/08_network.txt
+clear
+{ ufw status verbose; iptables -S; nft list ruleset; } > /tmp/enumeration/09_firewall.txt 2>&1
+cat /tmp/enumeration/09_firewall.txt 
+sudo -i
+exit
+clear
+{ cat /etc/default/ufw; cat /etc/ufw/ufw.conf; } >> /tmp/enumeration/09_firewall.txt 2>&1
+cat  /tmp/enumeration/09_firewall.txt
+clear
+ip neigh show > /tmp/enumeration/10_neighbors.txt 2>&1
+cat /tmp/enumeration/10_neighbors.txt 
+clear
+cat /tmp/enumeration/10_neighbors.txt 
+clear
+{ smbstatus; cat /proc/fs/cifs/DebugData; } > /tmp/enumeration/11_smb.txt 2>&1
+cat /tmp/enumeration/11_smb.txt 
+smbstatus
+smbmap
+smbclient
+enum4linux
+exit

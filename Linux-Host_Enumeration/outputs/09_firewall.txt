@@ -1,0 +1,11 @@
+Status: inactive
+-P INPUT ACCEPT
+-P FORWARD ACCEPT
+-P OUTPUT ACCEPT
+-A FORWARD -i wg0 -m comment --comment sec335-wg-ctl -j DROP
+table ip filter {
+	chain FORWARD {
+		type filter hook forward priority filter; policy accept;
+		iifname "wg0"  counter packets 0 bytes 0 drop
+	}
+}

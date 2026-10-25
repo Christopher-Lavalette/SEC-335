@@ -1,0 +1,4 @@
+sudo:x:27:ubuntu,tcarpenter,rnovelli,nkatz
+uid=1001(tcarpenter) gid=1001(tcarpenter) groups=1001(tcarpenter),27(sudo)
+uid=1002(rnovelli) gid=1002(rnovelli) groups=1002(rnovelli),27(sudo)
+uid=1003(nkatz) gid=1003(nkatz) groups=1003(nkatz),27(sudo)
